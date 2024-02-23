@@ -1,0 +1,11 @@
+{
+  "name": "ltgps",
+  "version": "1.0.0",
+  "description": "https://app.moqups.com/SPuOIU1bdaQuO5ubl4JNuhJnEBs0b7j8/view/page/a40102e5f",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

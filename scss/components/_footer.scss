@@ -1,0 +1,39 @@
+/*footer */
+.nav-link-f {
+    text-decoration: none;
+}
+
+.footer {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer article{
+    display: inline-block;
+    vertical-align: top;
+    margin: 30px 30px 20px;
+    text-align: left;
+}
+
+.footer h2 {
+    text-align: center;
+}
+
+.footer li {
+    margin: 5px 0;
+}
+
+.redes li {
+    display: inline-block;
+    padding: 5px;
+    font-size: 30px;
+}
+
+.fa-twitter{
+    color: #00acee;
+}
+
+.fa-instagram{
+    color: #dd2a7b;
+}

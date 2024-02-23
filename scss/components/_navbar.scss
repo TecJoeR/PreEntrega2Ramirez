@@ -1,0 +1,23 @@
+nav {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    z-index: 3;
+    border-bottom: 1px solid #202020;
+}
+
+.nav-list {
+    display: flex;
+    padding: 10px;
+    font-size: 22px;
+    gap: 15px;
+    list-style: none;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.nav-link {
+    text-decoration: none;
+}

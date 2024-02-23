@@ -1,188 +1,189 @@
 /*Fuente */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
-
-:root{
-    --bs-breakpoint-sm: 400px;
-    --bs-breakpoint-md: 576px;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");
+:root {
+  --bs-breakpoint-sm: 400px;
+  --bs-breakpoint-md: 576px;
 }
 
 /*general */
 body {
-    font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 /*header */
 header {
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0;
-}
-
-nav {
-    background-color: #fff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 90px;
-    z-index: 3;
-    border-bottom: 1px solid #202020;
-}
-
-.nav-list {
-    display: flex;
-    padding: 10px;
-    font-size: 22px;
-    gap: 15px;
-    list-style: none;
-    align-items: center;
-    margin-bottom: 0;
-}
-
-.nav-link {
-    text-decoration: none;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
 }
 
 .btn-primary {
-    --bs-btn-bg: #0033A0;
+  --bs-btn-bg: #0033A0;
 }
 
-/*Main */
-.hero {
-    background-color: rgb(171, 170, 170);
-    width: 100%;
-    height: 450px;
-    display: flex;
-    
+nav {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+  z-index: 3;
+  border-bottom: 1px solid #202020;
 }
 
-.hero-card {
-    height: 100%;
-    display: flex;
+.nav-list {
+  display: flex;
+  padding: 10px;
+  font-size: 22px;
+  gap: 15px;
+  list-style: none;
+  align-items: center;
+  margin-bottom: 0;
 }
 
-.hero-card img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
-
-.hero-card-info {
-    position: relative;
-    width: 50%;
-}
-
-.hero-card-info-l {
-    position: absolute;
-    top: 15%;
-    left: 0;
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    font-weight: bold;
-}
-
-.hero-card-img {
-    width: 50%;
-    overflow-clip-margin: 0;
-}
-
-/*Nuestros servicios*/
-.box {
-    padding: 15px;
-}
-.box i{
-    font-size: 30px;
-}
-
-.h2-nuestros-servicios {
-    text-align: center;
-    margin: 30px 0;
+.nav-link {
+  text-decoration: none;
 }
 
 /*footer */
 .nav-link-f {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .footer {
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
 }
 
-.footer article{
-    display: inline-block;
-    vertical-align: top;
-    margin: 30px 30px 20px;
-    text-align: left;
+.footer article {
+  display: inline-block;
+  vertical-align: top;
+  margin: 30px 30px 20px;
+  text-align: left;
 }
 
 .footer h2 {
-    text-align: center;
+  text-align: center;
 }
 
 .footer li {
-    margin: 5px 0;
+  margin: 5px 0;
 }
 
 .redes li {
-    display: inline-block;
-    padding: 5px;
-    font-size: 30px;
+  display: inline-block;
+  padding: 5px;
+  font-size: 30px;
 }
 
-.fa-twitter{
-    color: #00acee;
+.fa-twitter {
+  color: #00acee;
 }
 
-.fa-instagram{
-    color: #dd2a7b;
+.fa-instagram {
+  color: #dd2a7b;
+}
+
+/*Main */
+.hero {
+  background-color: rgb(171, 170, 170);
+  width: 100%;
+  height: 450px;
+  display: flex;
+}
+
+.hero-card {
+  height: 100%;
+  display: flex;
+}
+
+.hero-card img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.hero-card-info {
+  position: relative;
+  width: 50%;
+}
+
+.hero-card-info-l {
+  position: absolute;
+  top: 15%;
+  left: 0;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.hero-card-img {
+  width: 50%;
+  overflow-clip-margin: 0;
+}
+
+/*Nuestros servicios*/
+.box {
+  padding: 15px;
+}
+
+.box i {
+  font-size: 30px;
+}
+
+.h2-nuestros-servicios {
+  text-align: center;
+  margin: 30px 0;
 }
 
 /*Nosotros */
 .nosotros article {
-    display: inline-block;
-    vertical-align: top;
-    margin: 0 50px;
-    font-size: 20px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 50px;
+  font-size: 20px;
 }
 
 /*Form */
-.formulario{
-    margin-left: 50px;
+.formulario {
+  margin-left: 50px;
 }
 
-.formulario h2{
-    margin: 20px 0;
+.formulario h2 {
+  margin: 20px 0;
 }
 
-.formulario h3{
-    margin: 20px 0 0;
+.formulario h3 {
+  margin: 20px 0 0;
 }
 
-.formulario p{
-    margin: 20px 0;
+.formulario p {
+  margin: 20px 0;
 }
 
 form input {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .fenviar {
-    margin-top: 15px;
+  margin-top: 15px;
 }
 
 /*faqs */
 .f-h2 {
-    font-size: 25px;
-    margin: 30px 0 40px 30px;
+  font-size: 25px;
+  margin: 30px 0 40px 30px;
 }
 
 .s-faqs article {
-    margin: 30px 30px;
+  margin: 30px 30px;
 }
+
+/*# sourceMappingURL=style.css.map */

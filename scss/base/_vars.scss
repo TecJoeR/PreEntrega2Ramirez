@@ -1,0 +1,17 @@
+/*Fuente */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+
+:root{
+    --bs-breakpoint-sm: 400px;
+    --bs-breakpoint-md: 576px;
+}
+
+/*general */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
